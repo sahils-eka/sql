@@ -1,4 +1,4 @@
-## **`[DataLemur](https://datalemur.com/)`**
+# **[`DataLemur`](https://datalemur.com/)**
 
 - **EASY**
     - [**[Easy Linkedin](https://datalemur.com/questions/duplicate-job-listings)**] ****Duplicate Job Listings****
