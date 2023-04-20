@@ -1,9 +1,7 @@
-# Learning SQL, My way…
-
 Created: October 16, 2022 12:03 PM
 Tags: Learning, SQL
 
-## **[`SQL - From TrendyTech`](https://www.youtube.com/playlist?list=PLtgiThe4j67rAoPmnCQmcgLS4iIc5ungg)**
+# **[`SQL - From TrendyTech`](https://www.youtube.com/playlist?list=PLtgiThe4j67rAoPmnCQmcgLS4iIc5ungg)**
 
 ## Basic SQL
 
