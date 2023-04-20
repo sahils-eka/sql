@@ -1,0 +1,45 @@
+DROP TABLE IF EXISTS supp;
+
+CREATE TABLE supp (
+acc_no INTEGER PRIMARY KEY NOT NULL,
+price TEXT NOT NULL,
+name TEXT NOT NULL
+);
+INSERT INTO supp(acc_no,price,name) 
+VALUES (1,87736,'Sahil');
+INSERT INTO supp(acc_no,price,name) 
+VALUES (2,50001,'Singh');
+INSERT INTO supp(acc_no,price,name) 
+VALUES (3,67736,'Ajay');
+INSERT INTO supp(acc_no,price,name) 
+VALUES (4,27736,'Lisa');
+INSERT INTO supp(acc_no,price,name) 
+VALUES (5,90001,'Singh');
+INSERT INTO supp(acc_no,price,name) 
+VALUES (6,70001,'Singh');
+INSERT INTO supp(acc_no,price,name) 
+VALUES (7,30001,'Singh');
+INSERT INTO supp(acc_no,price,name) 
+VALUES (8,37736,'Jake');
+INSERT INTO supp(acc_no,price,name) 
+VALUES (9,107736,'Paul');
+
+SELECT * FROM supp;
+
+--Cartesian Product
+SELECT T.*,S.*
+FROM supp T,supp S;
+--
+
+--Cartesian Product WHERE name='Singh'
+SELECT T.*,S.*
+FROM supp T,supp S WHERE S.name='Singh';
+--
+
+SELECT  T.acc_no, T.name, T.price
+FROM supp T, supp S
+WHERE T.price > S.price AND S.name ='Singh';
+
+SELECT  DISTINCT T.acc_no, T.name, T.price
+FROM supp T, supp S
+WHERE T.price > S.price AND S.name ='Singh';
