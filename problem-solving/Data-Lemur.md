@@ -772,5 +772,3 @@
         
         Just put `SELECT * FROM repeated_payments` after the CTE to check how the query works.
         
-
-## [**`SQL RANK functions`**](https://www.sqlshack.com/overview-of-sql-rank-functions/) - To Add
